@@ -1,0 +1,25 @@
+Does this API require authentication?
+
+Some requests require authentication but not all.
+
+Does this API support CORS?
+
+Yes.
+
+Find the events search endpoint documentation. Describe in detail the response format of the events search endpoint. (HINT: You may need other keywords to find this endpoint.)
+
+You will need to use HH:MM:SS for most.  Depending on different things like date range, time range, or start dates with either you will need to add the day or time of the request. This will send you accurate times and dates to attend events.
+
+
+What are the limitations placed on the number of requests that can be made?
+
+If you make requests too frequently they will throttle your ability to access the API.  If you continue to go over in an hour period they will block you from using the API.  There are ways to see how the limit, limit remaining, and the number of seconds until it is unlocked.
+
+List the errors that you can expect when making calls to this API.
+
+
+400 Bad request when there was a problem with the request
+401 Unauthorized when you don't provide a valid token
+429 Too Many Requests when you've gone over your request rate limit
+500 Internal Server Error an unexpected error occured on our servers
+

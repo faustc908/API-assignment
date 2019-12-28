@@ -1,0 +1,10 @@
+YouTube API documentation:
+Required parameter: list - string -use a string to call specific channels, of subscriptions, and whether they exist.
+two optional parameters: id - string - calls subscription id uniquely given to a valis subscription.
+snippet - object- The snippet object contains basic details about the subscription, including its title and the channel that the user subscribed to.
+
+URL for requesting coordinates of the statue of liberty in JSON:
+https://maps.googleapis.com/maps/api/geocode/json?address=statue of liberty
+
+URL for requesting coordinates of my home:
+https://maps.googleapis.com/maps/api/geocode/json?address=550 hillcrest ave westfield nj
